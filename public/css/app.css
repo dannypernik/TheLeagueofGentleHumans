@@ -1,0 +1,181 @@
+body, html {
+  font-family: 'Sorts Mill Goudy', serif;
+  overflow-y: visible !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+/* headings on small screens */
+
+h1 {
+  font-size: 1.375rem; }
+
+h2 {
+  font-size: 1.25rem; }
+
+h3 {
+  font-size: 1.1875rem; }
+
+h4 {
+  font-size: 1.125rem; }
+
+h5 {
+  font-size: 1.0625rem; }
+
+h6 {
+  font-size: 1rem; }
+
+/* headings on non-small screens */
+
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 3rem; }
+  h2 {
+    font-size: 2.5rem; }
+  h3 {
+    font-size: 1.9375rem; }
+  h4 {
+    font-size: 1.5625rem; }
+  h5 {
+    font-size: 1.25rem; }
+  h6 {
+    font-size: 1rem; } }
+
+
+.button {
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 2px;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Buttons on small screens */ 
+.button.large {
+  font-size: 1.125rem;
+}
+ 
+/* Large buttons on non-small screens */   
+@media screen and (min-width: 40em) {
+  .button.large {
+    font-size: 1.25rem;
+  }
+}
+
+/* Scandalous classes */
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.half-margin-bottom {
+  margin-bottom: 0.5rem;
+}
+
+.half-margin-top {
+  margin-top: 0.5rem;
+}
+
+.half-margin-left {
+  margin-left: 0.5rem;
+}
+
+.half-margin-right {
+  margin-right: 0.5rem;
+}
+
+.three-qtr-margin-top {
+  margin-top: 0.75rem;
+}
+
+.one-margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.one-margin-top {
+  margin-top: 1rem;
+}
+
+.one-margin-left {
+  margin-left: 1rem;
+}
+
+.one-margin-right {
+  margin-right: 1rem;
+}
+
+.three-halves-margin-bottom {
+  margin-bottom: 1.5rem;
+}
+
+.three-halves-margin-top {
+  margin-top: 1.5rem;
+}
+
+.two-margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.two-margin-top {
+  margin-top: 2rem;
+}
+
+.three-margin-bottom {
+  margin-bottom: 3rem;
+}
+
+.three-margin-top {
+  margin-top: 3rem;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  margin: inherit auto;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+
+/* common classes */
+
+.title {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+/* home */
+
+#home-logo {
+  margin-top: 5rem;
+  width: 177px;
+}
